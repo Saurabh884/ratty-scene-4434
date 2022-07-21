@@ -1,0 +1,131 @@
+.nav_background{
+    background-image: url("https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg");
+    height: 550px;
+    width: 100%;
+    color: white;
+    margin-bottom: auto;
+    
+
+}
+
+.nav_container{
+    width: 80%;
+    height: 80px;
+    border: 1 px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.headings{
+    display: flex;
+   
+    
+    font-size: 16px;
+    gap: 25px;
+    font-weight: bold;
+   
+}
+.headings>p:hover{
+  cursor: pointer;
+}
+.logo:hover{
+    cursor: pointer;
+    
+}
+
+.head1{
+    
+    font-size: 14px;
+    font-weight: bold;
+}
+.head1:hover{
+    cursor: pointer;
+}
+.head2{
+    font-size: 50px;
+    margin-top: -10px;
+   
+}
+.searchBar{
+    width: 60%;
+   
+    height: 60px;
+    margin: auto;
+    display: flex;
+}
+.i1{
+    margin-right: 20px;
+    width: 10%;
+}
+
+.i2{
+    width: 100%;
+    font-size: 20px;
+}
+.msg{
+ text-decoration: underline;
+ font-weight: bold;
+}
+.msg:hover{
+    cursor: pointer;
+}
+.home_icons{
+    height: 230px;
+    width: 70%;
+   
+    margin:auto;
+    margin-top: -80px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
+}
+.home_icons:hover{
+    cursor: pointer;
+}
+.f_row{
+    display: flex;
+}
+.f_row img{
+    width: 40px;
+    height: 40px;
+}
+.f_row>div{
+    margin: auto;
+}
+.s_row{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.s_row img{
+    width: 40px;
+    height: 40px;
+}
+.s_row>div{
+    margin: auto;
+}
+.repairs{
+    width: 60%;
+    height: 200px;
+    
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.repairs>div {
+    margin: 20px;
+    width: 30%;
+    height: 100%;
+    font-weight: bold;
+}
+.repairs>div img{
+    width: 100%;
+    height: 90%;
+}
+.repairs>div img:hover{
+    cursor: pointer;
+    transform: scale(1.25)
+}
+

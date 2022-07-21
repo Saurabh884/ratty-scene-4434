@@ -1,0 +1,110 @@
+.intro{
+    display: flex;
+    width: 80%;
+    height: 500px;
+   
+    margin:auto;
+    margin-bottom: 50px;
+}
+.intro>div p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+.heart{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(149, 159, 159);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 200px;
+
+
+}
+.heart img{
+    width: 40px;
+    height: 50px;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 30%;
+
+}
+.right{
+    width: 70%;
+    cursor: pointer;
+}
+.photos{
+    width: 70%;
+    height: 150px;
+    margin : auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.photos img{
+    width: 100px;
+    cursor: pointer;
+}
+.desc{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.left_div{
+    padding: 10px;
+    width: 50%;
+    height:auto;
+  
+    text-align: left;
+    
+}
+.left_div h3{
+    text-align: left;
+}
+.left_div>div{
+    margin-bottom: 20px;
+}
+
+.right_div {
+    width:40%;
+    height: auto;
+    line-height: 10px;
+    
+}
+.right_div>div{
+   border: 1px solid grey;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.total{
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.totalBtn{
+    
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: #6e42e5;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
