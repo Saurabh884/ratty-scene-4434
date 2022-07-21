@@ -77,8 +77,8 @@ const Footer = () => {
               <p>Rohtak</p>
               <p>Panipat</p>
               <p>Surat</p>
-              <p>Thiruvananthpuram</p>
-              <p>Vishakhapatnam</p>
+              <p>Trichy</p>
+              <p>Vizag</p>
               <p>Warangal</p>
               </div>
             </div> 
@@ -89,9 +89,9 @@ const Footer = () => {
         <div className={styles.bottom_footer}>
             <div><img src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png" alt="" /></div>
             <div><p>© 2014-22 UrbanClap Technologies India Pvt. Ltd.</p></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className={styles.social}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc3-sNX6pjIUVrRytl5hiYyzXLHrxLXUF0Og&usqp=CAU" alt="" /></div>
+            <div><img src="	https://images.urbanclap.com/image/upload/categories/category_v2/category_7f907eb0.png" alt="" /></div>
+            <div> <img src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f741d10.png" alt="" /></div>
 
         </div>
     </div>
@@ -99,4 +99,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
