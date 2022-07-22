@@ -3,11 +3,17 @@ import Product from './Product'
 import styles from "./ProductIntro.module.css"
 
 import {data} from "../data"
-import Footer from './Footer'
+import Footer from './Footer';
+import {useNavigate} from "react-router-dom"
 
 console.log(data)
 
 const ProductIntro = () => {
+    let cart = JSON.parse(localStorage.getItem("cartData"))||[]
+    const navigate=useNavigate()
+    const gotoCart=()=>{
+    navigate("/cart")
+    }
   return (
     <>
         <div className={styles.intro}>
@@ -68,7 +74,7 @@ const ProductIntro = () => {
         <div className={styles.left_div}>
 
             {data.map((elem)=>{
-                return <Product elem={elem}/>
+                return <Product elem={elem} cart={cart}/>
             })}
            
         </div>
@@ -107,7 +113,7 @@ const ProductIntro = () => {
 
                 <div className={styles.total}>
                       <p>Total</p>
-                      <button className={styles.totalBtn}>View Cart</button>
+                      <button className={styles.totalBtn} onClick={gotoCart}>View Cart</button>
                  </div>
 
              </div>

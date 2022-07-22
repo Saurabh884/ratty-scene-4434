@@ -1,6 +1,22 @@
 import React from 'react'
 import styles from "./Product.module.css"
-const Product = ({elem}) => {
+const Product = ({elem,cart}) => {
+  
+  const handleAddCart = ()=>{
+    if(cart.length>0)
+    {
+      cart.find((item)=>item.id!==elem.id && cart.push(elem))   
+      localStorage.setItem("cartData",JSON.stringify(cart))
+    }
+    else {
+      cart.push(elem)
+      localStorage.setItem("cartData",JSON.stringify(cart))
+
+    }
+    
+
+
+  }
   return (
     <div style={{display:"flex"}}>
         <div>
@@ -16,7 +32,7 @@ const Product = ({elem}) => {
         </div>
                 <div className={styles.imgBtn}>
                      <img src={elem.images} alt="" />
-                     <button>Add</button>
+                     <button onClick={handleAddCart}>Add</button>
                 </div>
                 <div>
                 <hr />

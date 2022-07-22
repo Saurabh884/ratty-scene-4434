@@ -1,0 +1,71 @@
+.mainCart{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    
+    display: flex;
+}
+.cartItem{
+  
+   width: 40%;
+   height: auto;
+   margin-right: 5%;
+  
+   font-size: 18px;
+}
+.summary{
+    margin: auto;
+   width: 49%;
+   height: 100%;
+ 
+   font-size: 18px;
+   font-weight: bold;
+   
+}
+.total_p{
+    font-size: 24px;
+}
+
+.item_total_box{
+    display :flex;
+    justify-content: space-between;
+}
+.summary>div{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.pay_btn{
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    background-color: blue ;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.address input{
+  width: 46%;
+  height: 50px;
+}
+.submitBtn{
+    background-color: teal;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.pin{
+    height: 50px;
+}
