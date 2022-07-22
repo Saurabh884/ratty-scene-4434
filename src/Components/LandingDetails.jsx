@@ -1,10 +1,16 @@
+import { ChakraProvider } from '@chakra-ui/react';
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom';
-import styles from "./LandingDetails.module.css"
+import {NavLink } from 'react-router-dom';
+import styles from "./LandingDetails.module.css";
+import { Login} from "./Login.jsx"
 
+
+ 
 
 
 const LandingDetails = () => {
+ 
+      
   return (
     <>
       <div className={styles.nav_background}>
@@ -14,7 +20,8 @@ const LandingDetails = () => {
                   <p>Blog</p>
                   <p>Register As A Professional</p>
                   <p>My Bookings</p>
-                  <p>Login</p>
+                  
+                <ChakraProvider> <Login/></ChakraProvider>  
                  </div>
                  
               </div>
@@ -77,7 +84,7 @@ const LandingDetails = () => {
               </div>
              </div>
         </div>
-        <h1>Home Repairs</h1>
+        <h1 className={styles.home_repairs}>Home Repairs</h1>
 
         <div className={styles.repairs}>
           <div>

@@ -6,11 +6,7 @@ export const HairServices = () => {
   return (
     <div>
       <Navbar/>
-      <ProductIntro/>
-    
-    
-    
-    
+      <ProductIntro/>    
     
     </div>
   )
