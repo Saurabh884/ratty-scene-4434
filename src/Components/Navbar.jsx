@@ -1,4 +1,6 @@
+import { ChakraProvider } from '@chakra-ui/react'
 import React from 'react'
+import { Login } from './Login'
 import styles from "./Navbar.module.css"
 
 const Navbar = () => {
@@ -10,7 +12,8 @@ const Navbar = () => {
                   <p>Blog</p>
                   <p>Register As A Professional</p>
                   <p>My Bookings</p>
-                  <p>Login</p>
+                  
+                
                  </div>
                  
               </div>

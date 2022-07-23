@@ -1,12 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Footer from './Footer'
 import LandingDetails from './LandingDetails'
 
 
+
 const Home = () => {
+  
+  
+ 
+  
+  
   return (
     <div>
-      <LandingDetails/>
+      <LandingDetails  />
       <Footer/>
     </div>
   )

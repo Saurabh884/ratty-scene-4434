@@ -34,6 +34,10 @@
     border-radius: 10px;
     background-color: #ffffff;
     cursor: pointer;
+    
 
 
+}
+.imgBtn button:hover{
+    background-color: black;
 }
