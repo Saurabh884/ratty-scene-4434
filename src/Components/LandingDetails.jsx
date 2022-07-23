@@ -89,7 +89,7 @@ const LandingDetails = () => {
              </div>
              </NavLink>
         </div>
-       
+
         <h1 className={styles.home_repairs}>Home Repairs</h1>
 
         <div className={styles.repairs}>

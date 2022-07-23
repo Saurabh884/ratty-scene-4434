@@ -1,5 +1,7 @@
 import React from 'react'
+
 import { useState } from 'react'
+
 import {useNavigate } from 'react-router-dom'
 import styles from "./Cart.module.css"
 import { CartItem } from './CartItem'
@@ -9,9 +11,11 @@ import Navbar from './Navbar'
 
 
 export const Cart = () => {
+
      const [add1, setAdd1] = useState(null);
      const [add2, setAdd2] = useState(null);
      const [pin, setPin] = useState(null);
+
 
   let cart = JSON.parse(localStorage.getItem("cartData"))||[]
   const navigate=useNavigate()
@@ -28,6 +32,7 @@ export const Cart = () => {
   }
 
   const addressSubmit =()=>{
+
     if(add1==null || add2==null || pin==null)
     {
       alert("Please fill all details")
@@ -38,6 +43,7 @@ export const Cart = () => {
       window.location.reload()
     }
    
+
   }
 
   return (
@@ -79,13 +85,19 @@ export const Cart = () => {
             <hr />
             <h2>Enter Address Details</h2>
             <div className={styles.address}>
+
             <input type="text" onChange={(e)=>setAdd1(e.target.value)} placeholder="Enter address line1" />
             <input type="text"  onChange={(e)=>setAdd2(e.target.value)}  placeholder="Enter address line2" />
+
+         
             </div>
            
             <div className={styles.pin}>
               <h3>Pin:</h3>
+
               <input type="password"  onChange={(e)=>setPin(e.target.value)}  placeholder="Enter pin code" />
+
+       
             </div>
             <button className={styles.submitBtn} onClick={addressSubmit} >Submit</button>
             <hr />

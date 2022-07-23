@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Checkout.module.css"
 import Navbar from './Navbar'
 import Footer from "./Footer"
+
 import { NavLink } from 'react-router-dom'
 
 export const Checkout = () => {
@@ -11,21 +12,29 @@ export const Checkout = () => {
   },0)
 
 
+
+
+
   return (
     <div className={styles.main}>
           <div><Navbar/></div>
         <div className={styles.paymentContainer}>
           <div>
             <h2>Select payment method</h2>
+
             <p>Amount to pay:{totalPrice} </p>
+
+
           </div>
           <hr />
 
           <div>
             <h2>Debit Card Or Credit Card</h2>
             <div className={styles.debit}>
+
        <div><img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category,q_auto:low,f_auto/images/monet/customer-app-monet/1622015769641-3fc187.png" alt="" /></div>   
        <NavLink to="/payment">    <div> <h4>Add A Card</h4></div>  </NavLink> 
+
             </div>
             <hr />
             <h2>UPI</h2>

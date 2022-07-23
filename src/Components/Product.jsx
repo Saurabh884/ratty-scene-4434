@@ -14,7 +14,9 @@ const Product = ({elem,cart}) => {
 
     }
 
+
     alert("service added to cart")
+
     
 
 

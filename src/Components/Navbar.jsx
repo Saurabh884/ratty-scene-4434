@@ -12,7 +12,9 @@ const Navbar = () => {
                   <p>Blog</p>
                   <p>Register As A Professional</p>
                   <p>My Bookings</p>
+
                   
+
                 
                  </div>
                  
