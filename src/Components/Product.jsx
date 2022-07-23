@@ -13,6 +13,10 @@ const Product = ({elem,cart}) => {
       localStorage.setItem("cartData",JSON.stringify(cart))
 
     }
+
+
+    alert("service added to cart")
+
     
 
 

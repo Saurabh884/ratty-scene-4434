@@ -37,17 +37,21 @@ const LandingDetails = () => {
               <p className={styles.msg}>Message for Men, Home Paintings, Elecricians etc</p>
 
         </div>
-
+        
         <div className={styles.home_icons}>
+        <NavLink to="/hairservices">
              <div className={styles.f_row}>
               <div> <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1609757635235-1a139e.png" alt="" /> 
               <p>Salon For Women</p>
               
               </div>
-              <NavLink to="/hairservices">
-                <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1629973621437-ce5af9.png" alt="" />
+                  <div>
+                  <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1629973621437-ce5af9.png" alt="" />
                 <p>Hair Services For Women</p>
-              </NavLink>
+             
+                  </div>
+        
+                
               <div>
               <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/categories/category_v2/category_1312fb60.png" alt="" />
                 <p>Spa for Women</p>
@@ -83,7 +87,9 @@ const LandingDetails = () => {
                 <p>Plumbers & Carpenters</p>
               </div>
              </div>
+             </NavLink>
         </div>
+
         <h1 className={styles.home_repairs}>Home Repairs</h1>
 
         <div className={styles.repairs}>

@@ -76,23 +76,27 @@
 .home_icons{
     height: 230px;
     width: 70%;
-   
+    justify-content: center;
+    align-items: center;
+    display: block;
     margin:auto;
     margin-top: -80px;
     background-color: white;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 50px;
-}
-.home_icons:hover{
-    cursor: pointer;
+    text-decoration: underline;
+    
 }
 .f_row{
     display: flex;
+    margin-bottom: 20px;
 }
 .f_row img{
     width: 40px;
     height: 40px;
+    display: block;
+  
 }
 .f_row>div{
     margin: auto;
@@ -105,12 +109,16 @@
 .s_row img{
     width: 40px;
     height: 40px;
+    display: block;
 }
 .s_row>div{
     margin: auto;
 }
 .home_repairs{
     text-align: center;
+
+    font-size: 30px;
+
 }
 .repairs{
     width: 60%;

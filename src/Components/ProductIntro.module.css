@@ -82,11 +82,13 @@
     height: auto;
     line-height: 10px;
     
+    
 }
 .right_div>div{
    border: 1px solid grey;
    margin-bottom: 10px;
    cursor: pointer;
+   padding: 5px;
 }
 .total{
     width: 100%;
@@ -105,6 +107,7 @@
     border: none;
     border-radius: 5px;
     font-size: 18px;
+    cursor: pointer;
 
 }
 

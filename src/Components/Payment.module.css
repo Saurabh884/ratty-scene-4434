@@ -1,0 +1,44 @@
+
+
+
+.finalPay{
+    width: 35%;
+    height: auto;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 5%;
+    padding: 15px;
+    border-radius: 10px;
+   
+    
+}
+.cardNumber input{
+    width: 98%;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.dycvv input{
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.placeOrder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.placeOrder button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60px;
+    cursor: pointer;
+}

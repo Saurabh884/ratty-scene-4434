@@ -54,7 +54,10 @@
 }
 .address input{
   width: 46%;
-  height: 50px;
+
+  height: 30px;
+
+
 }
 .submitBtn{
     background-color: teal;
@@ -65,7 +68,13 @@
     border-radius: 10px;
     cursor: pointer;
 
+    margin-top: 20px;
+
 }
 .pin{
-    height: 50px;
+    height: 30px;
+    display: flex;
+  
+
+
 }
