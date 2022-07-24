@@ -12,6 +12,7 @@ Cloning of Urban Company website.My name is Saurabh Kumar . I am a web16 student
  <h1> Order & Payment Summary Page </h1>
 ![Screenshot 2022-07-23 183154](https://user-images.githubusercontent.com/99671592/180636263-241fbe8a-9429-4561-b9e9-6cb376b35b6b.png)
 
+
  
   <h1> Payment Options Page </h1>
   ![Screenshot 2022-07-23 183303](https://user-images.githubusercontent.com/99671592/180636461-bd9b8063-65f2-43ca-9d29-de5fd13a31a9.png)
