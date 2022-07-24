@@ -12,9 +12,9 @@ import Navbar from './Navbar'
 
 export const Cart = () => {
 
-     const [add1, setAdd1] = useState(null);
-     const [add2, setAdd2] = useState(null);
-     const [pin, setPin] = useState(null);
+     const [add1, setAdd1] = useState("");
+     const [add2, setAdd2] = useState("");
+     const [pin, setPin] = useState("");
 
 
   let cart = JSON.parse(localStorage.getItem("cartData"))||[]
@@ -33,14 +33,17 @@ export const Cart = () => {
 
   const addressSubmit =()=>{
 
-    if(add1==null || add2==null || pin==null)
+    if(add1=="" || add2=="" || pin=="")
     {
       alert("Please fill all details")
     }
     else
     {
       alert("Your address has been added")
-      window.location.reload()
+      setAdd1("");
+      setAdd2("");
+      setPin("")
+      
     }
    
 
@@ -86,8 +89,8 @@ export const Cart = () => {
             <h2>Enter Address Details</h2>
             <div className={styles.address}>
 
-            <input type="text" onChange={(e)=>setAdd1(e.target.value)} placeholder="Enter address line1" />
-            <input type="text"  onChange={(e)=>setAdd2(e.target.value)}  placeholder="Enter address line2" />
+            <input type="text" value={add1} onChange={(e)=>setAdd1(e.target.value)} placeholder="Enter address line1" />
+            <input type="text" value={add2}  onChange={(e)=>setAdd2(e.target.value)}  placeholder="Enter address line2" />
 
          
             </div>
@@ -95,7 +98,7 @@ export const Cart = () => {
             <div className={styles.pin}>
               <h3>Pin:</h3>
 
-              <input type="password"  onChange={(e)=>setPin(e.target.value)}  placeholder="Enter pin code" />
+              <input type="password" value={pin}  onChange={(e)=>setPin(e.target.value)}  placeholder="Enter pin code" />
 
        
             </div>
