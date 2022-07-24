@@ -10,10 +10,12 @@ Cloning of Urban Company website.My name is Saurabh Kumar . I am a web16 student
  ![Screenshot 2022-07-23 182855](https://user-images.githubusercontent.com/99671592/180635121-3e730f9d-0b1f-4c0a-8740-5338d3ed9223.png)
  
  <h1> Order & Payment Summary Page </h1>
- ![Screenshot 2022-07-23 183154](https://user-images.githubusercontent.com/99671592/180635237-4429615b-ee00-4f7c-867f-99c36e55bd58.png)
+![Screenshot 2022-07-23 183154](https://user-images.githubusercontent.com/99671592/180636263-241fbe8a-9429-4561-b9e9-6cb376b35b6b.png)
+
  
   <h1> Payment Options Page </h1>
- ![Screenshot 2022-07-23 183303](https://user-images.githubusercontent.com/99671592/180635303-0e438b01-3784-4bb6-a2b4-c83442f516ad.png)
+ ![Screenshot 2022-07-23 183303](https://user-images.githubusercontent.com/99671592/180636254-683cb53b-3f7e-439f-8b29-786fb5a0ee78.png)
+
  
  <h1> About the website. </h1>
  <p>Urban Company is an Indian gig marketplace that offers home installation, maintenance and repair services, and home beauty and wellness services. We have focused on the AC services section. </p>
@@ -66,7 +68,7 @@ Cloning of Urban Company website.My name is Saurabh Kumar . I am a web16 student
  <h2> For Developers: </h2>
  <p>On your terminal enter the following commands: </p>
  git clone <https link>
-cd Urban-Company
+cd urban_company
 npm i
 npm start
  
