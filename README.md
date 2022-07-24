@@ -14,7 +14,9 @@ Cloning of Urban Company website.My name is Saurabh Kumar . I am a web16 student
 
  
   <h1> Payment Options Page </h1>
- ![Screenshot 2022-07-23 183303](https://user-images.githubusercontent.com/99671592/180636254-683cb53b-3f7e-439f-8b29-786fb5a0ee78.png)
+  ![Screenshot 2022-07-23 183303](https://user-images.githubusercontent.com/99671592/180636461-bd9b8063-65f2-43ca-9d29-de5fd13a31a9.png)
+
+ 
 
  
  <h1> About the website. </h1>
@@ -67,10 +69,15 @@ Cloning of Urban Company website.My name is Saurabh Kumar . I am a web16 student
  
  <h2> For Developers: </h2>
  <p>On your terminal enter the following commands: </p>
- git clone <https link>
-cd urban_company
-npm i
-npm start
+ <ul> 
+     <li>  git clone <https link> </li>
+       <li>cd urban_company </li>
+         <li> npm i</li>
+           <li> npm start</li>
+ </ul>
+
+
+
  
  
 
